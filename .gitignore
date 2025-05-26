@@ -172,3 +172,34 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+media/
+staticfiles/
+
+# If you are collecting static files into a folder, you might want to ignore the collected static files:
+static/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+myvenv/
+env/
+
+# IDE files
+.idea/
+*.iml
+*.swp
+
+# Mac OS files
+.DS_Store
